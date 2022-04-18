@@ -67,7 +67,7 @@ a{
     box-sizing: border-box;
 }
 
-.section__contact{
+.section__contact, .section__form{
     flex: 1;
     flex-direction: column;
     padding: 0 2rem;
@@ -77,3 +77,120 @@ a{
     font-family: 'Montserrat';
 }
 
+.section__contact h1{
+    color: white;
+    font-size: 2rem;
+}
+
+.section__contact h2{
+    color: gray;
+    font-weight: 180;
+    font-size: 1.2rem;
+}
+
+.section__form{
+    flex: 1;
+    padding: 2rem 2rem;
+    background-color: white;
+}
+
+.contact{
+    display: flex;
+    color: white;
+    margin-top: 6rem;
+    font-size: 1.2rem;
+    flex-direction: column;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+
+.fa{
+    color: #F9A7B0;
+    margin-right: 1rem;
+}
+
+.social{
+    display: flex;
+    margin-top: 4rem;
+    font-size: 2.2rem;
+}
+
+.facebook, .instagram, .twitter{
+    color: var(--color-gray);
+    margin-right: 0.7em;
+}
+
+.facebook, .instagram, .twitter a{
+    transition: all 200ms ease-out;
+}
+
+.facebook, .instagram, .twitter:hover a{
+    color: var(--white-color);
+}
+.contact__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.form__name label{
+    font-weight: 600;
+    flex: 0.9;
+    display: flex;
+    flex-direction: column;
+}
+.form__name label input{
+    margin-top: 0.6rem;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.19);
+    font-size: 0.8rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0.4rem 1rem;
+}
+
+#contact__form > input, textarea{
+    margin: 0.7rem 0 1.5rem;
+    width: 100%;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.19);
+    font-size: 0.8rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0.4rem 1rem;
+}
+textarea{
+    resize: none;
+    height: 6rem;
+    font-family: 'Montserrat';
+}
+#contact__form button{
+    width: fit-content;
+    align-self: flex-end;
+    background-color: var(--purple-color);
+    color: var(--white-color);
+    border: none;
+    outline: none;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    transition: background-color 200ms ease-out;
+}
+#contact__form button:active{
+    background-color: #5b2fd7;
+}
+input{
+    font-family: 'Montserrat';
+}
