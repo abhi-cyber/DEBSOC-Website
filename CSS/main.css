@@ -151,36 +151,43 @@ a{
     flex-direction: column;
 }
 .form__name label input{
-    margin-top: 0.6rem;
+    margin-top: 0.7rem;
     width: 100%;
+    outline: none;
+    border: none;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.19);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     border-radius: 10px;
     box-sizing: border-box;
-    padding: 0.4rem 1rem;
+    padding: 0.5rem 1rem;
 }
-
+.form__name label:first-child input{
+    width: 95%;
+}
+#contact__form label{
+    font-weight: 600;
+}
 #contact__form > input, textarea{
     margin: 0.7rem 0 1.5rem;
     width: 100%;
     outline: none;
     border: none;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.19);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     border-radius: 10px;
     box-sizing: border-box;
-    padding: 0.4rem 1rem;
+    padding: 0.5rem 1rem;
 }
 textarea{
     resize: none;
-    height: 6rem;
+    height: 7rem;
     font-family: 'Montserrat';
 }
-#contact__form button{
+.submit{
     width: fit-content;
     align-self: flex-end;
-    background-color: var(--purple-color);
-    color: var(--white-color);
+    background-color: #5b3fd6;
+    color: white;
     border: none;
     outline: none;
     padding: 0.6rem 1rem;
@@ -188,9 +195,7 @@ textarea{
     border-radius: 10px;
     transition: background-color 200ms ease-out;
 }
-#contact__form button:active{
-    background-color: #5b2fd7;
-}
+
 input{
     font-family: 'Montserrat';
 }
