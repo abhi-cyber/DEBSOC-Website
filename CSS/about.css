@@ -4,20 +4,24 @@
 }
 
 body{
-    text-align: center;
+    display: flex;
+    align-items: center;
     font-family: 'Open Sans', sans-serif;
-    margin:100px;
+    margin: 100px;
+    padding: 0rem 5rem;
 }
 
 #intro{
     font-size: 1.1rem;
     width:400px;
-    text-align: center;
     font-weight: 200;
 }
 
 h1.thin{
     font-weight: 100;
+    font-size: 2rem;
+    width: fit-content;
+    border-bottom: solid 1px;
 }
 
 .team__card{
