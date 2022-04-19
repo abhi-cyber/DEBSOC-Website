@@ -40,12 +40,12 @@ a{
     padding: 0 4rem 0;
     font-size: 2rem;
     font-weight: 600;
-    color: #5b3fd6;
+    color: #8c52ff;
 }
 .navlinks{
     flex: 0.4;
     font-size: 1rem;
-    color: #5b3fd6;
+    color: #8c52ff;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -55,7 +55,7 @@ a{
 .contact__card{
     height: 600px;
     width: 100%;
-    background-color: #5b3fd6;
+    background-color: #8c52ff;
     display: flex;
     flex-direction: column;
 }
@@ -78,7 +78,7 @@ a{
 }
 
 .section__contact h1{
-    color: white;
+    color: #ffffff;
     font-size: 2rem;
 }
 
@@ -91,12 +91,12 @@ a{
 .section__form{
     flex: 1;
     padding: 2rem 2rem;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .contact{
     display: flex;
-    color: white;
+    color: #ffffff;
     margin-top: 6rem;
     font-size: 1.2rem;
     flex-direction: column;
@@ -121,7 +121,7 @@ a{
 }
 
 .facebook, .instagram, .twitter{
-    color: var(--color-gray);
+    color: gray;
     margin-right: 0.7em;
 }
 
@@ -130,7 +130,7 @@ a{
 }
 
 .facebook, .instagram, .twitter:hover a{
-    color: var(--white-color);
+    color: #ffffff;
 }
 .contact__form{
     display: flex;
@@ -188,7 +188,7 @@ textarea{
     width: fit-content;
     align-self: flex-end;
     background-color: #5b3fd6;
-    color: white;
+    color: #ffffff;
     border: none;
     outline: none;
     padding: 0.5rem 1rem;
@@ -203,12 +203,12 @@ input{
 
 .footer{
     height: 4vh;
-    background-color: #5b3fd6;
+    background-color: #8c52ff;
     box-sizing: border-box;
     border-top: 1px solid rgba(255,255,255,0.3);
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Montserrat';
-    color: white;
+    color: #ffffff;
 }
