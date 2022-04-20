@@ -1,0 +1,35 @@
+
+/*----------------NAV---------------*/
+
+#nav{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Montserrat';
+    background-color: #D3D3D3;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.logo{
+    flex: 0.6;
+    box-sizing: border-box;
+    padding: 0 4rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #8c52ff;
+}
+.navlinks{
+    flex: 0.4;
+    font-size: 1rem;
+    color: #8c52ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 3rem 0 0;
+}
