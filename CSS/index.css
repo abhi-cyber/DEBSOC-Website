@@ -108,18 +108,18 @@ a{
     font-size: 45px;
 }
 
-.text h2{
+.text h3{
     margin-top: 2rem;
     font-size: 13px;
     font-weight: 200;
 }
 
-.text h2 a{
-    color: #38b6ff;
+.text h3 a{
+    color: #b5cef7;
     text-decoration: underline;
 }
 
-.text h2.small{
+.text h3.privacy__policy{
     margin-top: 1rem;
     font-size: 1rem;
 }
@@ -132,18 +132,88 @@ a{
     font-size: 3vw;
 }
 
-.text h2{
+.text h2,h3{
     margin-top: 1.5rem;
     font-size: 1.1rem;
     font-weight: 200;
 }
 
-.text h2 a{
-    color: #38b6ff;
+.text h3 a{
+    color: #99baed;
     text-decoration: underline;
 }
 
-.text h2.small{
+.text h3.privacy__policy{
     margin-top: 1rem;
     font-size: 1rem;
+}
+
+
+/*---------------- FORM  ---------------*/
+
+form{
+    width: 70%;
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: row;
+    padding: 0.4rem;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+
+form input{
+    flex: 0.8;
+    outline: none;
+    border: none;
+    font-family: 'montserrat';
+    background-color: rgba(0,0,0,0);
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+form button{
+    flex: 0.2;
+    font-size: 1rem;
+    font-family: 'montserrat';
+    padding: 0.4rem 1rem;
+    background-color: #38b6ff;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+}
+
+form{
+    width: 70%;
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: row;
+    padding: 0.4rem;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+form input{
+    flex: 0.8;
+    outline: none;
+    border: none;
+    font-family: 'montserrat';
+    background-color: rgba(0,0,0,0);
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+form button{
+    flex: 0.2;
+    font-size: 1rem;
+    font-family: 'montserrat';
+    padding: 0.4rem 1rem;
+    background-color: #38b6ff;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
 }
