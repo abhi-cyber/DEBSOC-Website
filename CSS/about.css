@@ -93,3 +93,67 @@ i{
     margin-left: 5px;
     margin-right: 5px;
 }
+
+/* ----------------------------------------------- RESPONSIVE ------------------------------------------------------------------------ */
+
+@media screen and (max-width: 1160px) {
+    #main{
+        padding: 0;
+    }
+    #intro{
+        box-sizing: border-box;
+        padding: 0 2rem;
+    }
+    .team__card{
+        flex-direction: column;
+    }
+    /* .navbar h1{
+        flex: 0.4rem;
+    }
+    .navbar .links{
+        flex: 0.6;
+    } */
+    .card{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 10rem;
+    }
+    .links{
+        color: #38b6ff;;
+    }
+}
+@media screen and (max-width: 690px){
+    h1.thin{
+        font-size: 2rem;
+    }
+    #intro{
+        font-size: 1rem;
+        padding: 0 1rem;
+        padding-bottom: 3rem;
+        border-bottom: 1px solid rgba(0,0,0,0.19);
+    }
+    /* .navbar h1{
+        font-size: 1.5rem;
+        flex: 0.3;
+        padding: 0 1rem;
+    }
+    .navbar .links{
+        flex: 0.7;
+    } */
+    .team__card{
+        align-items: center;
+    }
+    .card{
+        width: 95%;
+        padding: 0;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgba(0,0,0,0.3);
+    }
+    .card .photo{
+        width: 20vw;
+        height: 20vw;
+    }
+    .desc{
+        margin-top: 1rem;
+    }
+}
