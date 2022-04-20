@@ -229,3 +229,11 @@ form button{
     width: 100%;
 }
 
+
+/*---------------- Rating ---------------*/
+.rating{
+    margin-left: 2.5rem;
+}
+.fa-star{
+    color: #e9c75f;
+}
