@@ -64,7 +64,16 @@ h1.thin{
     margin-top: 2rem;
 }
 
+
+
 .occu, .title, .desc{   
-    text-align: center
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
+.links{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
