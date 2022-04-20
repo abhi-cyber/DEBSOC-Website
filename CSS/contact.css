@@ -13,7 +13,7 @@ a{
     color: inherit;
     text-decoration: none;
 }
-#contact__container{
+#main{
     box-shadow: 0 0px 20px rgba(0,0,0,0.19);
     width: 65vw;
     margin: 150px;
@@ -83,7 +83,7 @@ a{
 }
 
 .section__contact h2{
-    color: gray;
+    color: #A9A9A9;
     font-weight: 180;
     font-size: 1.2rem;
 }
@@ -211,4 +211,68 @@ input{
     justify-content: center;
     font-family: 'Montserrat';
     color: #ffffff;
+}
+
+/*---------------------------------------- RESPONSIVE -----------------------------------------*/
+
+@media screen and (max-width: 1370px) {
+    #main{
+        margin: 2rem 0;
+    }
+    #main, .contact__card, .sections, body{
+        height: max-content;
+    }
+    .title{
+        flex: 0.4;
+        font-size: 1.5rem;
+        padding: 0 1rem;
+    }
+    .navlinks{
+        flex: 0.6;
+        font-size: 1rem;
+        padding: 0 3rem;
+    }
+    .sections{
+        flex-direction: column;
+    }
+    .section__contact, .section__form{
+        margin-top: 3rem;
+    }
+}
+@media screen and (max-width: 680px) {
+    #main{
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+    .navlinks{
+        padding: 0;
+    }
+    .section__contact h1{
+        font-size: 2rem;
+    }
+    .section__contact h2{
+        font-size: 1rem;
+    }
+    .section__contact, .section__form{
+        padding: 0;
+    }
+    .sections{
+        padding: 1rem 0.6rem;
+    }
+    .contact{
+        margin-top: 1rem;
+    }
+    .options{
+        margin-top: 2rem;
+    }
+    .footer{
+        font-size: 0.7rem;
+    }
+    .contact{
+        font-size: 1.05rem;
+    }
+    .social, i.fa{
+        font-size: 2rem;
+    }
 }
