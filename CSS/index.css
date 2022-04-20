@@ -98,3 +98,52 @@ a{
 } 
 
 /*---------------- LEFT TEXT  ---------------*/
+
+
+.text{
+    margin: 4rem 2rem;
+}
+
+.text h1{
+    font-size: 45px;
+}
+
+.text h2{
+    margin-top: 2rem;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.text h2 a{
+    color: #38b6ff;
+    text-decoration: underline;
+}
+
+.text h2.small{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.text{
+    margin: 4rem 2rem;
+}
+
+.text h1{
+    font-size: 3vw;
+}
+
+.text h2{
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+
+.text h2 a{
+    color: #38b6ff;
+    text-decoration: underline;
+}
+
+.text h2.small{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
