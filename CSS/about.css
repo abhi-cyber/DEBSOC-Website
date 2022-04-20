@@ -43,9 +43,15 @@ h1.thin{
 }
 .card{
     width: 25%;
-    border: solid;
+    
     box-sizing: border-box;
 }
+
+.card:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.19);
+}
+
 .photo{
     width: 10vw;
     height: 10vw;
