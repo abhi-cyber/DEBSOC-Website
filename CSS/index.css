@@ -6,7 +6,7 @@
 }
 
 body{
-    margin: 95px;
+    margin: 85px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,6 +55,10 @@ a{
     align-items: center;
     justify-content: space-evenly;
     padding: 0 3rem 0 0;
+}
+
+.navlinks{
+    flex: 2rem;
 }
 
 .login__signup{
