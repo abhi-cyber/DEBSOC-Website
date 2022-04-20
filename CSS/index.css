@@ -217,3 +217,15 @@ form button{
     color: white;
     border-radius: 10px;
 }
+
+/*---------------- PHOTOS  ---------------*/
+
+.sec2 .photo{
+    margin: 2rem 2rem;
+    width: 20vw;
+    overflow: hidden;
+}
+.sec2 .photo img{
+    width: 100%;
+}
+
