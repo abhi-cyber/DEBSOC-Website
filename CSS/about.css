@@ -51,8 +51,15 @@ h1.thin{
     height: 10vw;
     border-radius: 50%;
     overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
 }
 .photo img{
     width: 100%;
     object-fit: contain;
+}
+
+.occu, .title, .desc{
+    margin-top: 2rem;
 }
