@@ -50,6 +50,11 @@ h1.thin{
 .card:hover{
     transform: scale(1.01);
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.19);
+    transition: 1s;
+}
+
+.card:hover .links{
+    color: #38b6ff;
 }
 
 .photo{
@@ -82,4 +87,9 @@ h1.thin{
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+i{
+    margin-left: 5px;
+    margin-right: 5px;
 }
