@@ -121,15 +121,16 @@ a{
 }
 
 .facebook, .instagram, .twitter{
-    color: gray;
+    color: rgba(0,0,0,0.5);
     margin-right: 0.7em;
+    /* transition:  color 159ms ease-out; */
 }
 
-.facebook, .instagram, .twitter a{
-    transition: all 200ms ease-out;
+.facebook a, .instagram a, .twitter a{
+    transition: color 200ms ease-out;
 }
 
-.facebook, .instagram, .twitter:hover a{
+.facebook:hover a, .instagram:hover a, .twitter:hover a{
     color: #ffffff;
 }
 .contact__form{
