@@ -123,13 +123,23 @@ a{
 .facebook, .instagram, .twitter{
     color: rgba(0,0,0,0.5);
     margin-right: 0.7em;
-    /* transition:  color 159ms ease-out; */
+    box-sizing: border-box;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0);
+    border-radius: 50%;
+    transition:  background-color 200ms ease-out;
 }
 
 .facebook a, .instagram a, .twitter a{
     transition: color 200ms ease-out;
 }
-
+.facebook:hover, .instagram:hover, .twitter:hover{
+    background-color: #F9A7B0;
+}
 .facebook:hover a, .instagram:hover a, .twitter:hover a{
     color: #ffffff;
 }
